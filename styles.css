@@ -1,0 +1,65 @@
+body {
+    background-color: black;
+    color: ivory;
+}
+
+.m-t-20 {
+    margin-top: 20px;
+}
+
+.m-r-5 {
+    margin-right: 5px;
+}
+
+.m-b-5 {
+    margin-bottom: 5px;
+}
+
+#stats-wrap {
+    padding-bottom: 20px;
+}
+
+.selectable-letters {
+    display: inline-block;
+    padding: 0 30px;
+    margin: 0 10px;
+    font-size: 50px;
+    font-family: consolas;
+    box-shadow: 0 0 15px rgba(255, 255, 255, .1);
+}
+
+.selectable-letters:hover {
+    background-color: #111;
+}
+
+.center-block {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.text-red {
+    color: darkred;
+}
+
+.text-green {
+    color: darkgreen;
+}
+
+.challenge-word-chars {
+    display: inline-block;
+    margin: 0px 6px;
+    font-family: consolas;
+    font-size: 70px;
+}
+
+#stats-wrap {
+    height: 280px;
+    box-shadow: 0 0 30px rgba(255, 255, 255, .1);
+}
+
+#challenge-word-letters-wrap {
+    position: relative;
+    top: 97px;
+    margin-top: -110px;
+}
